@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+body {  
+  font-family: "Ubuntu", sans-serif;
+}
+
+.font-group {
+  font-family: "poppins", serif;
+}
+
+.top-buffer {
+  margin-top: 10px;
+}
+
+.bottom-buffer {
+  margin-bottom: 10px;
+}
+a {
+  color: #3b6c40;
+}
+a:hover {
+  color: #3b6c40;
+}
+
+#articlefileedit:hover,
+#abstractImageEdit:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.volrow:hover {
+  cursor: pointer;
+}
+
+.jaccordian:hover {
+  text-decoration: none;
+}
+
+p {
+  text-indent: 30px;
+}
+
+.callout {
+  border-radius: 0.25rem;
+  background-color: #fff;
+  padding: 0.5rem 1rem 0 0.5rem;
+  border-bottom: 2px solid #3b6c40;
+  color: #000;
+}
+
+.semj-spinner {
+  width: 3rem;
+  height: 3rem;
+  color: #3b6c40;
+}
+
+.headercontainer {
+  background-color: #3b6c40;
+}
+
+.menubar {
+  background-color: #3b6c40;
+}
+
+.headernavitem > .dropdown-menu > .dropdown-item {
+  background-color: #3b6c40;
+}
+
+a {
+  color: #3b6c40;
+}
+a:hover {
+  color: #3b6c40;
+}
+
+.list-group-item[aria-expanded="true"] {
+  background-color: #3b6c40 !important;
+  border-color: #3b6c40;
+}
+
+.homecard > .card-header {
+  background-color: #3b6c40;
+  /* background-color: orchid; */
+  color: white;
+}
+
+.homecard > .card-header {
+  background-color: #3b6c40;
+  /* background-color: orchid; */
+  color: white;
+}
+
+.homecardbtn {
+  background-color: #3b6c40;
+  /* background-color: orchid; */
+  color: white;
+}
+
+.sticky-offset {
+  top: 100px;
+}
+
+.issnbox {
+  display: none;
+}
+
+.textlogostyle {
+  width: auto;
+  height: 100px;
+}
+.arttitle {
+  color: #ff8c00;
+}
+
+/* ****** GALLERY start - DK******* */
+
+.green {
+  background-color: #6fb936;
+}
+.thumb {
+  margin-bottom: 30px;
+}
+
+.page-top {
+  margin-top: 85px;
+}
+img.zoom {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  object-fit: cover;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+}
+.transition {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.2);
+}
+.modal-header {
+  border-bottom: none;
+}
+.modal-title {
+  color: #000;
+}
+.modal-footer {
+  display: none;
+}
+
+/* ****** GALLERY End ******* */

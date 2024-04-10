@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+.headercontainer {
+	padding-top: 15px;
+}
+
+.headernavitem {
+	padding-left: 1em;
+	padding-right: 1.5em;
+	color: white;
+}
+
+.headernavitem a {
+	color: white;
+	font-weight: bolder;
+	padding: .4rem .3rem !important;
+}
+
+.headernavitem > .dropdown-menu {
+	padding-top: 0px;
+	padding-bottom: 0px;
+	border: none;
+}
+
+.headernavitem > .dropdown-menu > .dropdown-item {
+	color: #FFFFFF80;
+}
+
+.headernavitem :hover {
+	color: white !important;
+}
+
+.hmidtext {
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+	padding-top: 5px;
+	font-family: 'Cormorant Garamond', serif;
+	text-align: center;
+}
+
+.logo {
+	text-align: center;
+	align-self: center;
+}
+
+.captiontext {
+	font-size: 30px;
+	color: #A4DE02;
+	font-weight: bolder;
+    /** font-style: italic; **/;
+}
+
+.captiontextreg {
+	font-size: 18px;
+	color: #EAF616;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.captiontextreg h6 {
+	color: #fff;
+}
+
+.textlogostyle {
+}
+
+@media screen and (min-width: 980px)
+	/* Desktop */ {
+}
+
+@media screen and (max-width: 979px)
+	/* Tablet */ {
+	.headernavitem {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}
+
+@media screen and (max-width: 500px)
+	/* Mobile */ {
+	.headernavitem {
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+}

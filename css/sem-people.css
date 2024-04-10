@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+.profile-username{
+    margin-top: 1.25em;
+}
+
+.outline-top{
+    border-top: 3px solid #901EC9;
+}
+.img{
+    vertical-align: middle;
+    border-style: none;
+}
+.img-circle{
+    border-radius: 10%;
+}
+.profile-user-img{
+    margin: 0 auto;
+    width: 100px;
+    padding: 3px;
+    border: 3px solid #adb5bd;
+}
+.img-fluid{
+max-width: 100%;
+    height: auto;
+}
+
+.editorssectioncard{
+    border: none;
+}
+
+
+
+/* Home cards - End */
+
+@media screen and (min-width: 980px)
+	/* Desktop */ {
+}
+
+@media screen and (max-width: 979px)
+	/* Tablet */ {
+  .editorssectioncard > .card-body{
+       padding: 1rem;
+   }
+}
+
+@media screen and (max-width: 500px)
+	/* Mobile */ {
+   profile-user-img{
+       padding: 0px;
+   }
+
+   .editorssectioncard > .card-body{
+       padding: auto;
+   }
+}
